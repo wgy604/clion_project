@@ -1,0 +1,25 @@
+# Build output
+/build/
+/cmake-build-*/
+*.o
+*.obj
+*.elf
+*.bin
+*.hex
+*.map
+*.log
+
+# Local IDE state; keep the shared ST-LINK launch configuration
+/.idea/*
+!/.idea/runConfigurations/
+!/.idea/runConfigurations/*.xml
+/CMakeUserPresets.json
+
+# Local backups and old IAR output
+/.clion-setup-backups/
+/EWARM/
+/.mxproject
+*_save
+*.bak
+Thumbs.db
+.DS_Store
